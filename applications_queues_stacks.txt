@@ -1,0 +1,24 @@
+APPLICATIONS OF STACKS:-
+
+1. Stacks could be used for reversing a string.
+
+2. They could also be used for backtracking.
+
+3. Stacks are also used for natural language processing.
+
+4. Undo mechanisms in text editors use stacks.
+
+5. Stacks are used in depth first search.
+
+APPLICATIONS OF QUEUES:-
+
+1. Queues can be used in breadth first search.
+
+2. They are useful in CPU scheduling and Disk Scheduling. 
+
+3. They are also used when data is transferred asynchronously between two processes.
+
+4. Handling of interrupts in real-time systems. 
+   The interrupts are handled in the same order as they arrive, First come first served.
+   
+5. Queues are also used in recognising palindrome.
