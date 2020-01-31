@@ -1,0 +1,65 @@
+Q(1):
+TIME COMPLEXITY FOR STACKS:-
+	
+	INSERTION : For inserting something into a stack we just need to push the element into
+				the stack.
+	            Therefore the time complexity is O(1).
+	DELETION : For deleting something from a stack we need to pop the node from the stack.
+				Therefore the time complexity is O(1)
+	SEARCHING : For searching for an element in a stack we need to keep popping until we 
+				reach the element we want to delete.
+				Therefore the time complexity is O(n).
+
+TIME COMPLEXITY FOR QUEUES:-
+
+	INSERTION : Since we can only insert an element in a queue at the end,
+				therefore the time complexity is O(1).
+	DELETION : Since we can only remove elements from the beginning of a queue,
+				therefore the time complexity is O(1).
+	SEARCHING : For searching for an element in a queue we need to iterate through
+				the whole queue until we have the required element in the beginning of 
+				the queue.
+				Therefore the time complexity is O(n).
+				
+TIME COMPLEXITY FOR BINARY TREE:-
+
+	INSERTION : For inserting an element as a child of a node we need to traverse the tree
+				till we reach the required node.
+				Therefore the time complexity is O(h) where h is height and worst case
+				is O(n).
+	DELETION : For deleting an element also we need to traverse till we reach the element 
+				to be deleted.
+				Therefore the time complexity is O(h) where h is height and worst case is
+				O(n).
+	SEARCHING : For searching an element also we need to traverse till we reach the 
+				required node.
+				Therefore the time complexity is O(h) where h is height and worst case is
+				O(n).
+				
+
+
+Q(2)
+TO FIND THE NUMBER OF COMPONENTS IN A GRAPH:-
+
+Using DFS to find the number of components in  graph:
+
+		Step 1: Initialise all the nodes as unvisited.
+		Step 2: For every node that we come across if the node is unvisited	call the DFS
+				function.
+		Step 3: DFS function: 1)Mark the node as visited and increase the count by one.
+							  2)For every adjacent node if the node is not visited then 
+								recursively call the DFS function on the adjacent node.
+
+								
+
+
+Q(3)								
+DFS of the graph given : A B F C D H G I E J
+
+BFS of the graph given : A B C D F G H E I J
+
+
+								
+								
+ 
+												
